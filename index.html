@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paskuhan sa Tribu Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Start Panel -->
+        <div id="start-panel">
+            <h1>Welcome to the Paskuhan sa Tribo Quiz!</h1>
+            <p>Find out your role in Paskuhan sa Tribo 2024.</p>
+            <img src= "paskuhan-quiz.png" alt="Paskuhan Sa Tribo 2024" width="600" height="500">
+            <button id="start-quiz" class="button">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Panel -->
+        <div id="quiz-panel" style="display: none;">
+            <h1>Paskuhan sa Tribo Quiz</h1>
+            <div id="quiz">
+                <!-- Questions will be dynamically added here -->
+            </div>
+            <button id="submit" class="button">Submit Answers</button>
+        </div>
+
+        <!-- Result Panel -->
+        <div id="result-panel" style="display: none;">
+            <h1>Your Paskuhan Role</h1>
+            <div id="result"></div>
+            <button id="restart-quiz" class="button">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
